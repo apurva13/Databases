@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+<Placemark><name>1179 Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28610427653518,34.02858982940724</coordinates></Point>
+</Placemark>
+
+<Folder>
+<name>Waterworks</name>
+<Placemark><name>Bing Fountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28562726267678,34.02225704704248</coordinates></Point>
+</Placemark>
+<Placemark><name>Epstein Plaza</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28899150732448,34.0205366957971</coordinates></Point>
+</Placemark>
+<Placemark><name>PFS Fountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28527959074665,34.02024714279363</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Folder>
+<name>Entrances</name>
+<Placemark><name>McClintock Ave</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28724971752636,34.02491748164903</coordinates></Point>
+</Placemark>
+<Placemark><name>McCarthy Way</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2811607347382,34.0205816945248</coordinates></Point>
+</Placemark>
+<Placemark><name>Watt Way</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28892237279248,34.01851818742921</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Folder>
+<name>Libraries</name>
+<Placemark><name>Leavey Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28303407888698,34.021673742713425</coordinates></Point>
+</Placemark>
+<Placemark><name>Doheny Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28395005326558,34.02034554633695</coordinates></Point>
+</Placemark>
+<Placemark><name>JFF Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28242061663596,34.01864512820992</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Folder>
+<name>Eateries</name>
+<Placemark><name>Panda Express</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2864604692397,34.02022556359571</coordinates></Point>
+</Placemark>
+<Placemark><name>Annenberg Cafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2873164888947,34.02078350023921</coordinates></Point>
+</Placemark>
+<Placemark><name>The Coffee Bean</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28647311651777,34.023505382639485</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Placemark>
+<name>ConvexHull</name>
+<Style><LineStyle><color>ffff7d53</color></LineStyle><PolyStyle><color>80fe4d28</color></PolyStyle></Style>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-118.28892237279248,34.01851818742921 -118.28899150732448,34.0205366957971 -118.28610427653518,34.02858982940724 -118.2811607347382,34.0205816945248 -118.28242061663596,34.01864512820992 -118.28892237279248,34.01851818742921</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon> 
+</Placemark>
+
+
+<Placemark>
+<name>Neighbour 1</name>
+<description>Neighbour 1</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.28610427653518,34.02858982940724 -118.28724971752636,34.02491748164903</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+
+<name>Neighbour 2</name>
+<description>Neighbour2</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.28610427653518,34.02858982940724 -118.28647311651777,34.023505382639485</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour 3</name>
+<description>Neighbour3</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.28610427653518,34.02858982940724 -118.28562726267678,34.02225704704248</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour 4</name>
+<description>Neighbour4</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.28610427653518,34.02858982940724 -118.28303407888698,34.021673742713425</coordinates>
+</LineString>
+</Placemark>
+
+
+</Document></kml>

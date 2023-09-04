@@ -1,0 +1,37 @@
+Linear Regression Model
+
+class =
+
+     -0.1084 * CRIM +
+      0.0458 * ZN +
+      2.7187 * CHAS=1 +
+    -17.376  * NOX +
+      3.8016 * RM +
+     -1.4927 * DIS +
+      0.2996 * RAD +
+     -0.0118 * TAX +
+     -0.9465 * PTRATIO +
+      0.0093 * B +
+     -0.5226 * LSTAT +
+     36.3411
+
+Time taken to build model: 0.05 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correlation coefficient                  0.8528
+Mean absolute error                      3.1897
+Root mean squared error                  4.4629
+Relative absolute error                  53.574 %
+Root relative squared error              53.3441 %
+Total Number of Instances                101     
+
+
+
+
+We created a linear regression equation to predict the MEDV in which we got 11 terms which are stated as (weight * features) and one intercept term in the equation.We have a total of 14 terms but only 11 of them are selected in the equation, because the terms AGE and INDUS have the smallest standardized regression coefficients and are step-wisely removed from the model as no improvement is observed.This is M5 attribute selection method. The term "CHAS=0" is also not present in the linear regression equation as removing these terms did not affect the error value.
+

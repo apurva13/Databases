@@ -1,0 +1,24 @@
+Linear Regression Equation:
+
+num_rings =
+	sex=I          * p1  +
+	sex=M          * p2  +
+	length         * p3  +
+	diameter       * p4  +
+	height         * p5  + 
+	whole_weight   * p6  +
+	shucked_weight * p7  +
+	viscera_weight * p8  +
+	shell_weight   * p9  +
+	p0
+	
+parameterName="p0" beta="3.8946414238675753"
+parameterName="p1" beta="-0.8248762648052554"
+parameterName="p2" beta="0.057715674939701284"
+parameterName="p3" beta="-0.45833541624125296" 
+parameterName="p4" beta="11.075102542904558"
+parameterName="p5" beta="10.761536699123804"
+parameterName="p6" beta="8.975444620485794"
+parameterName="p7" beta="-19.7868668634496" 
+parameterName="p8" beta="-10.58182703416007"
+parameterName="p9" beta="8.74180579669353"	
